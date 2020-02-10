@@ -1,0 +1,25 @@
+{
+
+    "compilerOptions": {
+        "allowJs": true,
+        "target": "es6",
+        "module": "commonjs",
+        "jsx": "react",
+        "allowUnusedLabels": true,
+        "moduleResolution": "node",
+        "baseUrl": "./src",
+        "paths": {
+            "@pages/*": ["web/pages/*"],
+            "@components/*": ["web/components/*"],
+            "@store/*": ["web/store/*"]
+        },
+        "types":["node"],
+        "experimentalDecorators": true
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+}

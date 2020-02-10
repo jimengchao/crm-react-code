@@ -1,0 +1,30 @@
+.login-page{
+
+    width: 100vw;
+    height: 100vh;
+    background: url(http://testgy.515md.com/static/img/loginbg.e3c462e.jpg) 50%;
+    background-size: cover;
+    padding-top: 1px;
+
+    .login-title{
+        font-size: 32px;
+        color: #2a2a2a;
+        margin-bottom: 30px;
+        padding-top: 5%;
+        text-align: center;
+    }
+
+    .login-main{
+        width: 325px;
+        margin: 0 auto;
+    }
+
+    .block{
+        display: block;
+        width: 100%;
+    }
+
+    .mb30{
+        margin-bottom: 30px;
+    }
+}
